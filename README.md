@@ -75,11 +75,11 @@ Then the Pirate board is plugged in and the 5V supply voltage is connected.
 How to connect the board to the wLAN can also be found on Phillipe's or sle118's GitHub page ([Link](https://github.com/sle118/squeezelite-esp32 "Link")).
 For the board to be fully functional, the following settings need to be made:
 
-DAC: `I2S,Clock 13, WordSelect 27, Data 26`
+dac_config: `model=I2S,bck=13,ws=27,do=26`
 
-SPI: `Data 21, Clock 23, DC 22, Host 1`
+spi_config: `data=21,clk=23,dc=22,host=1`
 
-Display: `Interface SPI, Driver ST7789, Width 240, Height 240, CS 33, BLK 32, Speed 320000`
+display_config: `SPI,width=240,height=240,cs=33,back=32,speed=32000000,driver=ST7789`
 
 set_GPIO: `14=amp`
 
