@@ -36,7 +36,7 @@ The following table shows the connections between ESP32 and the 40 Pin Header:
 | 5V | NC | Pin 2 |
 | 3,3V | Pin 2 (VCC) | Pin 1, 17 |
 | GND | Pin 1, 15, 38 | Pin 6, 9, 14, 20, 25, 30, 34, 39 |
-| (Clock) | Pin 16 (GPIO 13) | Pin 12 |
+| I2S (Clock) | Pin 16 (GPIO 13) | Pin 12 |
 | I2S (Data) | Pin 11(GPIO 26) | Pin 40 |
 | I2S (WordSelect) | Pin 12 (GPIO 27) | Pin 35 |
 | Amp Enable | Pin 13 (GPIO 14) | Pin 22 |
