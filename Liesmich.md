@@ -72,17 +72,17 @@ Danach wird das Pirate Board aufgesteckt und die 5V Versorgungsspannung angeschl
 Wie man das Board mit dem wLAN verbindet, kann man ebenfalls auf der GitHub-Seite von Phillipe bzw. sle118 erfahren ([Link](https://github.com/sle118/squeezelite-esp32 "Link")).
 Damit das Board voll funktionsfähig ist, sind folgende Einstellungen vorzunehmen:
 
-`DAC: I2S,Clock 13, WordSelect 27, Data 26`
+dac_config: `model=I2S,bck=13,ws=27,do=26`
 
-`SPI: Data 21, Clock 23, DC 22, Host 1`
+spi_config: `data=21,clk=23,dc=22,host=1`
 
-`Display: Interface SPI, Driver ST7789, Width 240, Height 240, CS 33, BLK 32, Speed 32000000`
+display_config: `SPI,width=240,height=240,cs=33,back=32,speed=32000000,driver=ST7789`
 
-`set_GPIO: 14=amp`
+set_GPIO: `14=amp`
 
-`actrls_config: button`
+actrls_config: `button`
 
-`button: [{"gpio":4,"type":"BUTTON_LOW","pull":true,"normal":{"pressed":"ACTRLS_VOLDOWN"}},  {"gpio":2,"type":"BUTTON_LOW","pull":true,"normal":{"pressed":"ACTRLS_VOLUP"}},{"gpio":5,"type":"BUTTON_LOW","pull":true,"long_press":500,"normal":{"pressed":"ACTRLS_PLAY"},"longpress":{"pressed":"BCTRLS_RIGHT"}},{"gpio":18,"type":"BUTTON_LOW","pull":true,"long_press":500,"normal":{"pressed":"BCTRLS_DOWN"},"longpress":{"pressed":"BCTRLS_LEFT"}}]`
+button: `[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_PLAY"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
 
 Hinweis: Bei neueren Pirate Boards liegt Taster Y auf einem anderen GPIO, hier ist “gpio“:18 durch “gpio“:15 zu ersetzten.
 
