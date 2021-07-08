@@ -32,29 +32,27 @@ Note: The through-hole components (pin header, 5V power jack, etc.) are better s
 
 The following table shows the connections between ESP32 and the 40 Pin Header:
 
-| ESP32-WROVER-B | 40 Pin Header |
+|  | ESP32-WROVER-B | 40 Pin Header |
 | :------------: | :------------: | :------------: |
 | 5V | NC | Pin 2 |
 | 3,3V | Pin 2 (VCC) | Pin 1, 17 |
 | GND | Pin 1, 15, 38 | Pin 6, 9, 14, 20, 25, 30, 34, 39 |
-|<span style="color:green"> I2S (Clock)</span> | <span style="color:green">Pin 16 (GPIO 13)</span> | <span style="color:green">Pin 12</span> |
-| <span style="color:green">I2S (Data)</span> | <span style="color:green">Pin 11(GPIO 26)</span> | <span style="color:green">Pin 40</span> |
-| <span style="color:green">I2S (WordSelect)</span> | <span style="color:green">Pin 12 (GPIO 27)</span> | <span style="color:green">Pin 35</span> |
-| <span style="color:green">Amp Enable</span> | <span style="color:green">Pin 13 (GPIO 14)</span> | <span style="color:green">Pin 22</span> |
-| <span style="color:red">SPI (Clock)</span> | <span style="color:red">Pin 16 (GPIO 13)</span> | <span style="color:red">Pin 23</span> |
-| <span style="color:red">SPI (Data)</span> | <span style="color:red">Pin 36 (GPIO 22)</span> | <span style="color:red">Pin 19</span> |
-| <span style="color:red">SPI (DC)</span> | <span style="color:red">Pin 33 (GPIO 21)</span> | <span style="color:red">Pin 21</span> |
-| <span style="color:red">SPI (CS)</span> | <span style="color:red">Pin 9 (GPIO 33)</span> | <span style="color:red">Pin 24</span> |
-| <span style="color:red">Backlight</span> | <span style="color:red">Pin 8 (GPIO 32)</span> | <span style="color:red">Pin 33</span> |
-| <span style="color:blue">Button A</span> | <span style="color:blue">Pin 24 (GPIO 2)</span> | <span style="color:blue">Pin 29</span> |
-| <span style="color:blue">Button B</span> | <span style="color:blue">Pin 26 (GPIO 4)</span> | <span style="color:blue">Pin 31</span> |
-| <span style="color:blue">Button X</span> | <span style="color:blue">Pin 29 (GPIO 5)</span> | <span style="color:blue">Pin 36</span> |
-| <span style="color:blue">Button Y (old)</span> | <span style="color:blue">Pin 30 (GPIO 18)</span> | <span style="color:blue">Pin 18</span> |
-| <span style="color:blue">Button Y (new)</span> |<span style="color:blue">Pin 23 (GPIO 15)</span> | <span style="color:blue">Pin 38</span> |
+| (Clock) | Pin 16 (GPIO 13) | Pin 12 |
+| I2S (Data) | Pin 11(GPIO 26) | Pin 40 |
+| I2S (WordSelect) | Pin 12 (GPIO 27) | Pin 35 |
+| Amp Enable | Pin 13 (GPIO 14) | Pin 22 |
+| SPI (Clock) | Pin 16 (GPIO 13) | Pin 23 |
+| SPI (Data) | Pin 36 (GPIO 22) | Pin 19 |
+| SPI (DC) | Pin 33 (GPIO 21) | Pin 21 |
+| SPI (CS) | Pin 9 (GPIO 33) | Pin 24< |
+| Backlight | Pin 8 (GPIO 32) | Pin 33 |
+| Button A | Pin 24 (GPIO 2) | Pin 29 |
+| Button B | Pin 26 (GPIO 4) | Pin 31 |
+| Button X | Pin 29 (GPIO 5) | Pin 36 |
+| Button Y (old) | Pin 30 (GPIO 18) | Pin 18 |
+| Button Y (new) | Pin 23 (GPIO 15) | Pin 38 |
 | 10 kOhm Pullup | Pin EN | NC |
 | Jumper to GND | Pin 25 (GPIO 0) | NC |
-
-<span style="color:green">Sound (DAC)</span>&emsp;<span style="color:red">Display</span>&emsp;<span style="color:blue">Buttons</span>.
 
 ## Flash the firmware and put it into operation:
 
