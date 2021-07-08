@@ -21,7 +21,7 @@ You can't use a "big" Hifiberry Amp without modifications, because it also needs
 
 ## Make a PCB and solder SMD components:
 
-With the production files provided here (Gerber Files) as well as the files BOM.csv (component list) and Pick&Place.csv (component positions) you can have a PCB provider ([Link](https://jlcpcb.com "Link")).
+With the production files provided here (Gerber Files) as well as the files BOM.csv (component list) and Pick&Place.csv (component positions) you can have a PCB provider (e.g. [Link](https://jlcpcb.com "Link")).
 The Gerber files have to be sent as .zip file to the PCB provider. These contain all data to be able to manufacture the PCB. Most of the providers I know have a minimum order quantity of 5 pieces. It is recommended to have the SMD components soldered on by the service provider. For this the two .csv files are necessary.
 The BOM.csv contains the component list. When ordering, make sure that the components are replaced by in stock standard parts from the PCB provider. The electrical values must be kept. The ESP32 WROVER module can be used in the 8MB PSRAM as well as in the 16MB PSRAM version. Also the version simply named ESP32-WROVER-B works.
 All modules labeled WROOM will not work because they do not have external PSRAM installed.
