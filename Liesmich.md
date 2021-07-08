@@ -19,6 +19,7 @@ Einen "großen" Hifiberry Amp kann man nicht ohne Änderungen nutzen, weil diese
 
 ## Platine anfertigen und SMD-Bauteile auflöten lassen:
 
+Das Board wurde mit EasyEDA entworfen. Die Projektdatei befindet sich im Ordner EasyEDA und darf für private Zwecke verwendet und verändert werden.
 Mit den hier bereitgestellten Fertigungs-Dateien (Gerber Files) sowie den Dateien BOM.csv (Bauteileliste) und Pick&Place.csv (Bauteilpositionen) kann man bei einem PCB Dienstleister
 diese Platine fertigen lassen (Z.B. [Link](https://jlcpcb.com "Link")).
 Die Gerber Files müssen als .zip Datei an den Dienstleister übermittelt werden. Diese enthalten alle Daten, um die Platine fertigen zu können. Die meisten mir bekannten Anbieter haben eine Mindestbestellmenge von 5 Stück. Es empfielt sich, die SMD-Bauteile gleich von dem Dienstleister mit auflöten zu lassen. Dafür sind die beiden .csv Dateien nötig.
