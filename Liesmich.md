@@ -24,7 +24,7 @@ Einen "großen" Hifiberry Amp kann man nicht ohne Änderungen nutzen, weil diese
 
 Das Board wurde mit EasyEDA entworfen. Die Projektdatei befindet sich im Ordner EasyEDA und darf für private Zwecke verwendet und verändert werden.
 Mit den hier bereitgestellten Fertigungs-Dateien (Gerber Files) sowie den Dateien BOM.csv (Bauteileliste) und Pick&Place.csv (Bauteilpositionen) kann man bei einem PCB Dienstleister
-diese Platine fertigen lassen ([z.B. jlcpcb.com](https://jlcpcb.com).
+diese Platine fertigen lassen [z.B. jlcpcb.com](https://jlcpcb.com).
 Die Gerber Files müssen als .zip Datei an den Dienstleister übermittelt werden. Diese enthalten alle Daten, um die Platine fertigen zu können. Die meisten mir bekannten Anbieter haben eine Mindestbestellmenge von 5 Stück. Es empfielt sich, die SMD-Bauteile gleich von dem Dienstleister mit auflöten zu lassen. Dafür sind die beiden .csv Dateien nötig.
 Die BOM.csv enthält die Bauteileliste. Beim Bestellvorgang ist darauf zu achten, daß die Bauteile durch vorrätige Standard-Parts des Dienstleisters ersetzt werden. Die elektrischen Werte sind dabei unbedingt beizubehalten. Das ESP32 WROVER Modul kann sowohl in der 8MB PSRAM als auch in der 16MB PSRAM Version verwendet werden. Auch die einfach ESP32-WROVER-B bezeichnete Version funktioniert.
 Alle Module mit der Bezeichnung WROOM funktionieren nicht, da diese keinen externen PSRAM verbaut haben.
