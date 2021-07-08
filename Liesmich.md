@@ -86,7 +86,7 @@ Damit das Board voll funktionsfähig ist, sind folgende Einstellungen vorzunehme
 
 Hinweis: Bei neueren Pirate Boards liegt Taster Y auf einem anderen GPIO, hier ist “gpio“:18 durch “gpio“:15 zu ersetzten.
 
-In den LMS-Einstellungen muß für die Funktion den Displays noch das ESP32 Plugin installiert werden und nach eigenen Vorlieben konfiguriert werden. Auch hierführ empfehle ich die Anleitung von Phillipe.
+In den LMS-Einstellungen muss für die Funktion des Displays noch das ESP32 Plugin installiert werden und nach eigenen Vorlieben konfiguriert werden. Auch hierführ empfehle ich die Anleitung von Phillipe.
 
 ## Haftungsausschluß:
 
