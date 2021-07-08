@@ -7,8 +7,7 @@ Since Phillipe developed his Squeezelite firmware for Esspressif's ESP32 microco
 On the Pirate board are two MAX9857 I2S amps (2x 3W), a SPI display with ST7789 controller and four buttons.
 Which connections are necessary to be able to use all functions further, I took from this page ([Link](https://de.pinout.xyz/pinout/pirate_audio_3w_amp# "Link")).
 Unfortunately there is lack of one needed pin, which took me some time to find. The display is not powered by the 5V supply via a voltage regulator,
-but it gets its 3.3V voltage directly from the Raspberry via pin17. And only via pin17 and not via pin1. Although on the Raspberry Pi Pin1 and Pin17 carry 3,3V,
-on the Pirate board only Pin17 is connected.
+but it gets its 3.3V voltage directly from the Raspberry via pin17. And only via pin17 and not via pin1.
 My first PCB design did not have this connection. I did connect 3.3V to Pin1, but I did not connect it to Pin17.
 Therefore I had to manual solder this bridge. In the meantime I changed the PCB design, now there is 3,3V at Pin1 as well as at Pin17.
 Now the Pirate board works well on my ESP32 board.
