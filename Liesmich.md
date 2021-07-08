@@ -55,7 +55,7 @@ Die folgende Tabelle zeigt die Verbindungen zwischen ESP32 und dem 40 Pin Header
 
 ## Firmware flashen und in Betrieb nehmen:
 
-Bevor man das Board konfigurieren und in Betrieb nehmen kann, muß die Firmware von Phillipe einmalig geflasht werden. Weiter Updates können OTA über die Weboberfläche durchgeführt werden.
+Bevor man das Board konfigurieren und in Betrieb nehmen kann, muß die Firmware von Phillipe einmalig geflasht werden. Weitere Updates können OTA über die Weboberfläche durchgeführt werden.
 Die aktuelle Firmware (momentan diese: squeezelite-esp32-master-cmake-I2S-4MFlash-16-1.698.zip) sowie eine Anleitung zum Flashen befindet sich hier: ([Link](https://github.com/sle118/squeezelite-esp32 "Link"))
 Mein ESP32 Board besitzt keinen USB-to-serial Chip, daher ist ein externes Modul zum Flashen notwendig. Ich kann dieses Modul empfehlen: ([Link](https://de.aliexpress.com/item/32828640989.html?albpd=de32828640989&acnt=708-803-3821&aff_platform=aaf&albpg=1240648134658&netw=u&albcp=9599365821&sk=UneMJZVf&trgt=1240648134658&terminal_id=cb90a984c6704024b9d10f47dab3cb43&tmLog=new_Detail&needSmbHouyi=false&albbt=Google_7_shopping&src=google&crea=de32828640989&aff_fcid=0df8fe743af744ffa314b38fcb0b7f42-1625766660782-06276-UneMJZVf&gclid=EAIaIQobChMIrIf4uITU8QIVqhJ7Ch2_jA0NEAQYCyABEgLKgfD_BwE&albag=101872837187&aff_fsk=UneMJZVf&albch=shopping&albagn=888888&isSmbAutoCall=false&aff_trace_key=0df8fe743af744ffa314b38fcb0b7f42-1625766660782-06276-UneMJZVf&device=c&gclsrc=aw.ds "Link")).
 Um das ESP32 Modul in den Programmiermodus zu versetzen, muß der Jumper geschlossen werden.
