@@ -43,7 +43,7 @@ The following table shows the connections between ESP32 and the 40 Pin Header:
 | SPI (Clock) | Pin 16 (GPIO 13) | Pin 23 |
 | SPI (Data) | Pin 36 (GPIO 22) | Pin 19 |
 | SPI (DC) | Pin 33 (GPIO 21) | Pin 21 |
-| SPI (CS) | Pin 9 (GPIO 33) | Pin 24< |
+| SPI (CS) | Pin 9 (GPIO 33) | Pin 24 |
 | Backlight | Pin 8 (GPIO 32) | Pin 33 |
 | Button A | Pin 24 (GPIO 2) | Pin 29 |
 | Button B | Pin 26 (GPIO 4) | Pin 31 |
