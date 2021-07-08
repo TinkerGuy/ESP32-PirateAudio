@@ -6,8 +6,7 @@ Als dann von Phillipe eine Squeezelite Firmware für den ESP32 Mikrocontroller v
 mußte eine Platine in genau diesem Format her. Das Pirate Audio Board wurde speziell für den Raspberry Pi entwickelt, daher mußte auch mein ESP32 Board den 40 Pin Raspberry Pi Header bekommen. Auf dem Pirate Board sind zwei MAX9857 I2S Amps (2x 3W), ein SPI Display mit ST7789 Controller sowie vier Taster verbaut.
 Welche Verbindungen nötig sind, um alle Funktionen weiter nutzen zu können, habe ich dieser Seite entnommen ([Link](https://de.pinout.xyz/pinout/pirate_audio_3w_amp# "Link")).
 Leider ist dort ein Fehler enthalten, dessen Suche mich einige Zeit gekostet hat. Und zwar wird das Display nicht über einen Spannungsregler von der 5V Spannungsversorgung gespeist,
-sondern es bekommt seine 3,3V Spannung direkt vom Raspberry über Pin17. Und zwar nur über Pin17 und nicht über Pin1. Obwohl auf dem Raspberry Pi Pin1 und Pin17 3,3V führen,
-ist auf dem Pirate Board nur Pin17 verbunden.
+sondern es bekommt seine 3,3V Spannung direkt vom Raspberry über Pin17. Und zwar nur über Pin17 und nicht über Pin1.
 Mein erster Platinenentwurf hat diese Verbindung nicht gehabt. Ich habe zwar 3,3V an Pin1 verbunden, aber eben nicht an Pin17 weitergeführt.
 Daher mußte ich diese Brücke nachträglich einlöten. Ich habe den Platinenentwurf inzwischen geändert, jetzt liegt sowohl an Pin1 als auch an Pin17 3,3V an.
 Nun funktioniert das Pirate Board einhunderprozentig an meinem ESP32 Board.
