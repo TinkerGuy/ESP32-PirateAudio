@@ -93,6 +93,6 @@ In den LMS-Einstellungen muss für die Funktion des Displays noch das ESP32 Plug
 Ich empfehle die Umsetzung diese Projektes nur, wenn entprechende Vorkenntnisse vorhanden sind.
 Unsachgemäßer Einsatz kann zu Schäden führen. Für eventuell entstehende Schäden an Mensch und Technik übernehme ich keine Haftung.
 Das Board ist für eine Versorgungsspannung von 5V konzipiert. Falsch dimensionierte Netzteile können die Elektronik zerstören.
-**Das ESP32 Modul darf ausschließlich mit 3,3V Spannung versorgt werden.**
+Das ESP32 Modul darf ausschließlich mit 3,3V Spannung versorgt werden.
 Die Versorgungsspannung von 5V wird von einem Spannungsregler auf 3,3V heruntergeregelt. Beim Anschluss des USB-to-Seriell Moduls ist darauf zu achten, daß max. 3,3 V Spannung an das ESP32 Modul angelegt werden. Der Spannungsregler ist in diesem Fall außer Funktion.
 Für den Inhalt der oben verlinkten Seiten übernehme ich keine Verantwortung.
