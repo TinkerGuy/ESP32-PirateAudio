@@ -97,6 +97,27 @@ Damit das Board voll funktionsfähig ist, sind folgende Einstellungen vorzunehme
 
 In den LMS-Einstellungen muss für die Funktion des Displays noch das ESP32 Plugin installiert werden und nach eigenen Vorlieben konfiguriert werden. Auch hierführ empfehle ich die Anleitung von Phillipe.
 
+## Tastenbelegung
+
+Mit o.g. button Konfiguration sind die vier Tasten folgendermaßen belegt:
+
+* Taste A: </br>
+  Lautstärke plus
+  
+* Taste B: </br>
+  Lautstärke minus
+  
+* Taste X: </br>
+  kurz drücken = Wiedergabe </br>
+  lang drücken = Navigation nach rechts
+  
+* Taste Y: </br>
+  kurz drücken = Navigation nach unten </br>
+  lang drücken = Navigation nach links
+  
+Mit dieser Belegung kann man durch die Menüs navigieren und eine Auswahl starten. Stoppen bzw. pausieren kann man die Wiedergabe so nicht.
+Die Tasten A und B kann man leider nicht mit einer "Longpress"-Funktion belegen, weil dann sofort das Lautstärkemenü erscheint und die Longpress-Funktion unterdrückt wird. Das ist sicher noch nicht die optimale Konfiguration, vielleicht hat jemand noch eine bessere Idee.
+
 ## Haftungsausschluß:
 
 Ich empfehle die Umsetzung diese Projektes nur, wenn entprechende Vorkenntnisse vorhanden sind.
