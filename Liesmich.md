@@ -65,7 +65,7 @@ Um das ESP32 Modul in den Programmiermodus zu versetzen, muss der Jumper geschlo
 
 Achtung: Die 5V Spannungsversorgung darf zum Programmieren nicht angeschlossen sein. Das USB-to-Serial Modul muß unbedingt auf 3,3V eingestellt werden! Eine zu hohe Spannung zerstört das ESP32 Modul!
 
-Die Verkabelung der seriellen Schnittstelle und die Einstellung des ESP32 Flash-Tools finden sich im Verzeichnis Flash.
+Die Verkabelung der seriellen Schnittstelle und die Einstellung des ESP32 Flash-Tools finden sich im Verzeichnis Pictures.
 Wenn die Firmware erfolgreich geflasht wurde, wird das Flash-Tool beendet, die Verkabelung der seriellen Schnittstelle getrennt und der Jumper wieder geöffnet.
 
 Danach wird das Pirate Board aufgesteckt und die 5V Versorgungsspannung angeschlossen.
