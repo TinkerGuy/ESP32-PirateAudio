@@ -95,6 +95,27 @@ For the board to be fully functional, the following settings need to be made:
 
 In the LMS settings you have to install the ESP32 plugin for the display function and configure it according to your preferences. Again, I recommend the instructions from Phillipe.
 
+## Key assignment
+
+With above button configuration, the four keys are assigned as follows:
+
+* Button A: </br>
+  Volume up
+  
+* Button B: </br>
+  Volume down
+  
+* Button X: </br>
+  short press = play </br>
+  long press = navigation right
+  
+* Y key: </br>
+  short press = navigation down </br>
+  long press = navigation left
+  
+With this assignment, you can navigate through the menus and start a selection. Stopping or pausing the playback is not possible.
+The keys A and B can unfortunately not be assigned with a "longpress" function, because then the volume menu appears immediately and the longpress function is suppressed. This is certainly not the optimal configuration, maybe someone has a better idea.
+
 ## Disclaimer:
 
 I recommend the implementation of this project only if appropriate prior knowledge is available.
