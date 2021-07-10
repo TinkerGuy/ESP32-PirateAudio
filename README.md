@@ -109,7 +109,7 @@ With above button configuration, the four keys are assigned as follows:
   short press = play </br>
   long press = navigation right
   
-* Y key: </br>
+* Button Y: </br>
   short press = navigation down </br>
   long press = navigation left
   
