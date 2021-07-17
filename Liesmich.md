@@ -91,7 +91,7 @@ Damit das Board voll funktionsfähig ist, sind folgende Einstellungen vorzunehme
 `button`
 
 * button </br>
-`[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_PLAY"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
+`[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_TOGGLE"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
 
 **Hinweis**: Bei neueren Pirate Boards liegt Taster Y auf einem anderen GPIO, hier ist “gpio“:18 durch “gpio“:15 zu ersetzten.
 
@@ -108,15 +108,15 @@ Mit o.g. button Konfiguration sind die vier Tasten folgendermaßen belegt:
   Lautstärke minus
   
 * Taste X: </br>
-  kurz drücken = Wiedergabe </br>
+  kurz drücken = Wiedergabe / Pause </br>
   lang drücken = Navigation nach rechts
   
 * Taste Y: </br>
   kurz drücken = Navigation nach unten </br>
   lang drücken = Navigation nach links
   
-Mit dieser Belegung kann man durch die Menüs navigieren und eine Auswahl starten. Stoppen bzw. pausieren kann man die Wiedergabe so nicht.
-Die Tasten A und B kann man leider nicht mit einer "Longpress"-Funktion belegen, weil dann sofort das Lautstärkemenü erscheint und die Longpress-Funktion unterdrückt wird. Das ist sicher noch nicht die optimale Konfiguration, vielleicht hat jemand noch eine bessere Idee.
+Mit dieser Belegung kann man durch die Menüs navigieren und eine Auswahl starten und pausieren.
+Die Tasten A und B kann man leider nicht mit einer "Longpress"-Funktion belegen, weil dann sofort das Lautstärkemenü erscheint und die Longpress-Funktion unterdrückt wird.
 
 ## Haftungsausschluß:
 
