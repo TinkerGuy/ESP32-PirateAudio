@@ -113,7 +113,7 @@ With above button configuration, the four keys are assigned as follows:
   short press = navigation down </br>
   long press = navigation left
   
-With this assignment, you can navigate through the menus and start / stop a selection.
+With this assignment, you can navigate through the menus and start a selection.
 The keys A and B can unfortunately not be assigned with a "longpress" function, because then the volume menu appears immediately and the longpress function is suppressed.
 
 ## Disclaimer:
