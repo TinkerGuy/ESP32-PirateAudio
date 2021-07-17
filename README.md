@@ -89,7 +89,7 @@ For the board to be fully functional, the following settings need to be made:
   `button`
 
  * button</br>
-  `[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_PLAY"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
+  `[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_TOGGLE"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
 
 **Note**: On newer Pirate boards button Y is on a different GPIO, here "gpio":18 has to be replaced by "gpio":15.
 
@@ -106,15 +106,15 @@ With above button configuration, the four keys are assigned as follows:
   Volume down
   
 * Button X: </br>
-  short press = play </br>
+  short press = play / pause </br>
   long press = navigation right
   
 * Button Y: </br>
   short press = navigation down </br>
   long press = navigation left
   
-With this assignment, you can navigate through the menus and start a selection. Stopping or pausing the playback is not possible.
-The keys A and B can unfortunately not be assigned with a "longpress" function, because then the volume menu appears immediately and the longpress function is suppressed. This is certainly not the optimal configuration, maybe someone has a better idea.
+With this assignment, you can navigate through the menus and start / stop a selection.
+The keys A and B can unfortunately not be assigned with a "longpress" function, because then the volume menu appears immediately and the longpress function is suppressed.
 
 ## Disclaimer:
 
