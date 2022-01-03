@@ -89,7 +89,7 @@ For the board to be fully functional, the following settings need to be made:
   `button`
 
  * button</br>
-  `[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_TOGGLE"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
+  `[{"gpio":4, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLDOWN"}}, {"gpio":2, "type": "BUTTON_LOW", "pull":true, "normal":{"pressed": "ACTRLS_VOLUP"}},{"gpio":5, "type": "BUTTON_LOW", "pull":true, "long_press": 500, "normal":{"pressed": "ACTRLS_PLAY"}, "longpress":{"pressed": "BCTRLS_RIGHT"}},{"gpio":18, "type": "BUTTON_LOW", "pull":true, "long_press":500, "normal":{"pressed": "BCTRLS_DOWN"}, "longpress":{"pressed": "BCTRLS_LEFT"}}]`
 
 **Note**: On newer Pirate boards button Y is on a different GPIO, here "gpio":18 has to be replaced by "gpio":15.
 
@@ -106,7 +106,7 @@ With above button configuration, the four keys are assigned as follows:
   Volume down
   
 * Button X: </br>
-  short press = play / pause </br>
+  short press = play </br>
   long press = navigation right
   
 * Button Y: </br>
