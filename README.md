@@ -80,7 +80,7 @@ For the board to be fully functional, the following settings need to be made:
   `data=21,clk=23,dc=22,host=1`
 
  * display_config</br>
-  `SPI,width=240,height=240,cs=33,back=32,speed=32000000,driver=ST7789`
+  `SPI,width=240,height=240,cs=33,back=32,speed=10000000,driver=ST7789`
 
  * set_GPIO</br>
   `14=amp`
